@@ -3,13 +3,10 @@
 /**
  * main - Entry point
  *
- * Return (0) (Success)
+ * Return: Always (0) (Success)
  */
 int main(void)
 {
-
-#This will print all the alphabet in lower and uppercase.
-
 	char c;
 
 	c = 'a';
