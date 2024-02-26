@@ -2,14 +2,16 @@
 
 /**
 * _puts - Prints the desired string.
-*@str: The string to be printed.
+* @str: The string to be printed.
 * Return: void
 */
 void _puts(char *str)
 {
-	while (*str != '\0')
+	int i;
+
+	for (i = 0 ; str[i] != '\0' ; i++)
 	{
-		_putchar(*str++);
+		_putchar(str[i]);
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
