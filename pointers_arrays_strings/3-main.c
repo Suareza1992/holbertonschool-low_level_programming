@@ -1,16 +1,15 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-* main - Entry point
+* main - Check the code
 *
-* Return: Always 0 (Success)
+* Return: Always 0.
 */
 int main(void)
 {
+	char *str;
 
-        char *str;
-
-        str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
         _puts(str);
         return (0);
 }
