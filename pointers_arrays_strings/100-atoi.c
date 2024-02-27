@@ -21,17 +21,16 @@ int _atoi(char *s)
 	}
 	while ((s[i] >= '0' && s[i] <= '9') && s[i] != 0)
 	{
-		num = num * 10 - (s[i] - '0');
-		i++;
-	}
-	else
-	{
-		num = num * 10 - (s[i] - '0');
-		i++;
-	}
-	negative = negative * -1;
-	return (num * negative);
-}
+		if (num >= 0)
+		{
+			num = num * 10 - (s[i] - '0');
+			i++;
+		}
+		else
+		{
+			num = num * 10 - (s[i] - '0');
+			i++;
+		}
 	}
 	negative = negative * -1;
 	return (num * negative);
