@@ -1,1 +1,1 @@
-This directory contains everything regarding the Pointers, Arrays and Strings unit in C for Holberton.
+This directory contains the Holberton  0x06 unit exercises
